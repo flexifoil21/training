@@ -72,4 +72,4 @@ output "public_ip" {
 }
 output "all_ip" {
     value = ["${aws_instance.web.*.public_ip}"]
-}
+#}
