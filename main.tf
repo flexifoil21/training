@@ -59,7 +59,7 @@ resource "aws_instance" "web" {
   tags {
     Identity = "autodesk-coyote"
     Name     = "web ${count.index+1} of ${var.num_webs}"
-    Blah     = "BlahBlah"
+    Blah     = "BlahBlahBlah"
     OneMore  = "Something"
   }
 }
